@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/Library');
+//mongoose.connect('mongodb://localhost:27017/Library');
 //const uri = process.env.MONGODB_URI;
 mongoose.connect('mongodb+srv://libdatauser:libdb@pass@cluster0.gugpm6l.mongodb.net/?retryWrites=true&w=majority');
 const Schema = mongoose.Schema;
